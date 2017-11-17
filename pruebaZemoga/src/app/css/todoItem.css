@@ -1,0 +1,30 @@
+.todo-item{
+    border-bottom: 1px dashed #bbb;
+    display: flex;
+    width: 47%;
+    flex-direction: column;
+    margin: 6px;
+    margin-bottom: -155px;
+}
+
+.todo-item:hover{
+  cursor: pointer;
+}
+
+.item-name{
+  flex-basis: 0;
+  flex-grow: 9;
+}
+
+.item-remove{
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: right;
+  color: #7f4cc1;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.descp{
+      max-width: 976px;
+}
