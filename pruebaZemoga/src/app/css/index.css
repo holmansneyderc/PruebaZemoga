@@ -1,0 +1,307 @@
+body{
+  background: #eee;
+  margin: 0px;
+  font-family: tahoma;
+}
+
+#wrapper{
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 2px;
+  color: #333;
+}
+
+#wrapper p{
+    color: #777;
+    font-style: italic;
+    margin: 14px 0px;
+}
+
+#todo-list ul{
+  list-style-type: none;
+  padding: 0;
+}
+.bt-box{
+  display: flex;
+      display: flex;
+    margin: 6px;
+}
+.picture{
+      width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5fb6b4;
+    margin: 3px;
+    border: 3px solid;
+}
+.pictureb{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbb240;
+    margin: 3px;
+    border: 3px solid #fbb240;
+}
+ul, li, h1, h2, h3, h4, h5, h6, p, a, .titlerule {
+    font-family: "Lato";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    margin: 7px;
+    padding: 0;
+}
+
+.inner {
+  width: 920px;
+  position: relative;
+  margin: 0 auto;
+}
+.infoheader{
+      display: flex;
+    width: 100%;
+    height: 36px;
+}
+.infoa{
+    height: 100%;
+    background-color: #5d5d5d2b;
+    width: 40%;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    padding-right: 7px;
+    font-size: 13px;
+    color: white;
+}
+.infob{
+    height: 100%;
+    background-color: #ffffff7d;
+    width: 60%;
+    align-items: center;
+    display: flex;
+    padding-right: 7px;
+    font-size: 13px;
+    color: black;
+
+}
+.infob span{
+    font-size: 2em;
+    padding: 8px;
+}
+header {
+    width: 100%;
+    transition: 0.7s all;
+    z-index: 100;
+    min-height: 500px;
+    background-image: url(http://institutoacton.org/wp-content/uploads/2015/07/papa_audiencia.jpg);
+    background-size: cover;
+}
+
+header.alt-header {
+  background: #fff;
+}
+
+.alt-header a {
+  color: #000;
+}
+.wrapper-box{
+  display: flex;
+  justify-content: center;
+
+}
+.content-nav{
+ background: -webkit-linear-gradient(#3c3c3c, #ffffff00); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#3c3c3c, #ffffff00); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#3c3c3c, #ffffff00); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#3c3c3c, #ffffff00); /* Standard syntax */
+    height: 140px;
+    padding-top: 14px;
+}
+.wrapper-boxc{
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 976px;
+}
+.cbig-box{    
+    display: flex;
+    justify-content: center;
+    padding-bottom: 75px;
+}
+.big-box{
+  position: relative;
+  width: 900px;
+}
+.a{
+    height: 100%;
+    width: 50%;
+    background: rgba(55, 187, 176, 0.65);
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+}
+.b{
+    height: 100%;
+    background-color: rgb(251,178,64);
+    width: 50%;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+}
+.a:hover{
+   opacity: 0.9;
+}
+.b:hover{
+   opacity: 0.9;
+}
+.box{
+    width: 370px;
+    margin: 30px 30px 0px 30px;
+    padding: 40px;
+    background-color: #13131380;
+    color: white;
+}
+.box a{
+    color: #fff !important;
+    font-style: normal !important;
+}
+.box p{
+      color: #fff !important;
+    font-style: normal !important;
+}
+.box i{
+      font-size: 10px;
+}
+.box span{
+    color: #fff !important;
+    font-style: normal !important;
+    font-size: 9.5px;
+    text-decoration: underline;
+}
+.box h2{
+    color: #fff !important;
+    font-style: normal !important;
+    font-size: 3em;
+}
+.box-share{ 
+    width: 450px;
+    margin: 0px 30px;
+    height: 50px;
+    display: flex;
+}
+.contentbox{
+    position: relative;
+    bottom: 205px;
+    padding: 0px 20px;
+    color: white;
+}
+.descp{
+      display: flex;
+    width: 78%;
+    padding: 22px 0px;
+    margin: 22px 0px;
+        background-color: #e2e2e2;
+}
+.descpa{
+padding: 10px;
+    font-size: 17px;
+    min-width: 169px;
+    color: #989898;
+}
+.contentimg{
+      overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.contentimg img{
+      height: 451px;
+}
+.descpa span{
+    padding: 10px;
+    font-size: 26px;
+    color: #000000;
+}
+.descpb{
+      padding: 10px;
+}
+.descpc{
+      padding: 10px;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+body.header-fixed header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding-top: 0;
+  width: 100%;
+  z-index: 2;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  overflow: hidden;
+
+}
+
+nav ul {
+  float: right;
+}
+
+nav li {
+  display: inline;
+  float: left;
+}
+
+nav a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 25px;
+  transition: 0.3s all;
+}
+
+
+.titlerule {
+    float: left;
+    color: #fff;
+    font-size: 2em;
+    margin-top: 6px;
+    line-height: 50px;
+    transition: 0.7s all;
+}
+
+.alt-header .titlerule {
+  color: #000;
+}
+
+body.header-fixed .titlerule {
+  font-size: 30px;
+}
+
+.alternate {
+  background: #000;
+  color: #fff;
+}
+
+section .inner {
+ 
+  padding-top: 200px;
+}
